@@ -4,6 +4,7 @@
  SPDX-License-Identifier: BSD-3-Clause
  For full license text, see the LICENSE file in the repo root or https://opensource.org/licenses/BSD-3-Clause
 """
+from lavis.datasets.builders.taiwan_caption_builder import TaiwanCaptionBuilder
 
 from lavis.datasets.builders.base_dataset_builder import load_dataset_config
 from lavis.datasets.builders.caption_builder import (
@@ -65,6 +66,7 @@ __all__ = [
     "VGCaptionBuilder",
     "VGVQABuilder",
     "AVSDDialBuilder",
+    "TaiwanCaptionBuilder",
 ]
 
 
